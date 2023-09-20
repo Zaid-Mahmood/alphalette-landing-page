@@ -1,0 +1,112 @@
+.sectionOne {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.womenBtn {
+    background-color: #CFCFCF;
+}
+
+.btnMainDiv2 .womenBtn,
+.btnMainDiv2 .menBtn {
+    font-size: 10px;
+    color: #636363;
+}
+.btnMainDiv2{
+    max-width: 12%!important;
+}
+@media only screen and(max-width:938px){
+    
+    .btnMainDiv2  {
+        width: 100%!important;
+    }
+}
+.btnShopAll:hover {
+    opacity: 0.6
+}
+
+.card {
+    padding: 0% 5%;
+    z-index: 0!important;
+}
+
+.modelImages {
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 9%;
+    opacity: 1;
+    position: relative;
+    z-index: 0!important;
+}
+.modelImages2{
+    height: 10rem;
+    width: 50rem;
+}
+.cardsRow {
+    width: 100%;
+    margin: 50px auto 0px;
+}
+
+.custom-arrow {
+    cursor: pointer;
+}
+
+
+.rightArrow {
+    border: 1px solid rgb(221, 216, 216);
+    background-color: white;
+    border-radius: 50%;
+    padding: 14px;
+    font-weight: bolder;
+    color: black;
+    min-width: 40px;
+    min-height: 40px;
+    position: absolute;
+    bottom: 50%;
+    right: 80px;
+}
+
+
+.leftArrow {
+    border: 1px solid rgb(221, 216, 216);
+    background-color: white;
+    border-radius: 50%;
+    padding: 12px;
+    font-weight: bolder;
+    color: black;
+    min-width: 40px;
+    min-height: 40px;
+    position: absolute;
+    top: 45%!important;
+    left: 40%!important;
+}
+
+
+
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.itemColor {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+
+.colorNumbers {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #636363;
+    padding: 0.8%;
+}
+
+.itemPrice {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}

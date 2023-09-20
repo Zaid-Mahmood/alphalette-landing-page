@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'zaidFont'; /* Give your font a name */
+    src: url('gt-helvetica.otf') format('otf'),
+  }
+
+.topBar {
+    border: 1px solid #C7C8C9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    backdrop-filter: blur(10px);
+}
+
+
+.leftText {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rightText {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.lowerLeftText {
+    font-family: 'zaidFont', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    transform: scaleX(1.2);
+}
+
+.lowerMiddleText {
+    font-family: 'zaidFont', sans-serif;
+    color: #585858;
+    font-size: 13px;
+    font-weight: bolder;
+    transform: scaleX(1.2);
+
+}
+
+.iconCircle {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    border: 1px solid 00e77c;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    background-color: #00e77c;
+}
+.smallZero{
+    font-size: 9px;
+}
+.topBar.scrolled {
+    .upperContent ,hr{
+        display: none!important;
+        padding: auto;
+    }
+}
+.topBar.unscrolled{
+    background-color: white;
+}
+

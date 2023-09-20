@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: 'zaidFont'; /* Give your font a name */
+    src: url('gt-helvetica.otf') format('otf'),
+  }
+.newsLetterText{
+    text-align: right;
+}
+.inputTab{
+    display: flex;
+    justify-content: space-between;
+}
+.listItems{
+    width: 50%!important;
+}
+
+.listItemsUpper3{
+    width: 0%!important;
+}
+.listItems4{
+    width: 40%!important;
+}
+.listItems4 input::placeholder{
+    font-size: 12px;
+    padding-left: 15px;
+}
+input{
+    width: 70%;
+    border:2px solid #C8BFBF;
+    border-radius: 10px;
+}
+ h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+li {
+    font-size: 12px;
+    color: grey;
+    padding: 3px 0px;
+}
+.listItems3 {
+    font-size: 11px;
+}
+.listItems3 h6 {
+    font-size: 11px;
+}
+.listItems3 .lowerText{
+    opacity: 0.5;
+}
+.listItems3 .lowerText:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.inputTab{
+    justify-content: space-between;
+}
+.signUpBtn{
+    background-color: #0d0d0d;
+    opacity: 0.8;
+    padding: 8px 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 1px 1px  #C8BFBF;
+}
+.signUpBtn:hover{
+    background-color: #0d0d0d;
+    opacity: 1;
+    color: white;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+    input{
+        width: 67%;
+    }
+}
+@media only screen and (max-width: 1023px){
+    .footerUpperRow{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    input{
+        width: 100%;
+        padding: 2%;
+    }.signUpBtn{
+        width: 100%;
+        margin-top: 2%;
+    }
+    .inputTab{
+        display: block!important;
+    }
+    .newsLetterText{
+        text-align: center!important;
+    }
+    .help , .more{
+        display: block!important;
+        width: 100%;
+        float: left!important;
+        border: 2px solid rgb(221, 214, 214);
+        border-radius: 20px;
+        margin: 2% 0%;
+        padding: 5%!important;
+    }
+    
+}

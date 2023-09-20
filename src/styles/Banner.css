@@ -1,0 +1,64 @@
+.bannerHeadingText {
+    font-family: 'Montserrat', sans-serif;
+}
+.bannerMainDiv{
+    margin-top: 5%;
+}
+
+.overlayText {
+    bottom: 8%;
+}
+
+.ladyBtn {
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: #ffb980;
+    border: 1px solid #ffb980;
+    height: 50%;
+}
+.ladyBtn:hover {
+    background-color: white;
+    color: black !important;
+    transform: translateY(-12%);
+    transition: transform 0.2s ease-in;
+}
+
+.manBtn {
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: #ffb980;
+    border: 1px solid #ffb980;
+    font-weight: bolder;
+    height: 50%;
+}
+.manBtn:hover {
+    background-color: white;
+    color: black !important;
+    transform: translateY(-12%);
+    transition: transform 0.2s ease-in;
+}
+
+.bannerMainDiv:hover{
+    transition: 700ms linear!important;
+    transform : scale(1.02);
+}
+
+@media only screen and (min-width : 0px) and (max-width: 772px){
+    .ladyBtn{
+        width: 60%;
+    }
+    .manBtn{
+        width: 60%;
+    
+    }
+    
+}
+
+@media only screen and (max-width:787px){
+    .bannerMainDiv{
+        padding-top: 10%;
+        margin-top: 0%;
+    }
+}

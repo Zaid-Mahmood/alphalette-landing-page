@@ -1,0 +1,34 @@
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+img{
+    scale: none!important;
+}
+.smallText{
+    position: absolute;
+    left: 63%;
+    top: 75%;
+}
+.colorNumber{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #636363;
+}
+.leftArrow {
+    border: 1px solid rgb(221, 216, 216);
+    background-color: white;
+    border-radius: 50%;
+    padding: 12px;
+    font-weight: bolder;
+    color: black;
+    min-width: 40px;
+    min-height: 40px;
+    position: absolute;
+    top: 58%;
+    left: 80%;
+    z-index: 999!important;
+    overflow: visible;   
+}
+
